@@ -1,7 +1,10 @@
+from utils import get_input_path
 # PART ONE
 # version 1 with O(2n)
-file = open('2015_1_input.txt')
+file_path = get_input_path(__file__, '2015_1_input.txt')
+file = open(file_path)
 my_instructions = file.read()
+file.close()
 floor_up_count = my_instructions.count('(')
 floor_down_count = my_instructions.count(')')
 floor_total_count = floor_up_count - floor_down_count
