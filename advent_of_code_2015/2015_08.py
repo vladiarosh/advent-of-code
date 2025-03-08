@@ -1,6 +1,6 @@
 from utils import get_input_path
 
-file_path = get_input_path(__file__, '2015_8_input.txt')
+file_path = get_input_path(__file__, '2015_08_input.txt')
 with open(file_path) as file:
     instructions = [line.rstrip() for line in file]
 

@@ -2,7 +2,7 @@ from utils import get_input_path
 
 
 def main():
-    file_path = get_input_path(__file__, '2024_1_input.txt')
+    file_path = get_input_path(__file__, '2024_01_input.txt')
     file = open(file_path)
     instructions = file.readlines()
     file.close()

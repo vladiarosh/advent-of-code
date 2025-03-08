@@ -25,7 +25,7 @@ class Instructions(NamedTuple):
 
 
 def main() -> None:
-    file_path = get_input_path(__file__, '2015_7_input.txt')
+    file_path = get_input_path(__file__, '2015_07_input.txt')
     dependencies: dict[str, list[str]] = dict()
     instructions: dict[str, Instructions] = dict()
     with open(file_path) as file:

@@ -1,7 +1,7 @@
 import re
 from utils import get_input_path
 
-file_path = get_input_path(__file__, '2015_5_input.txt')
+file_path = get_input_path(__file__, '2015_05_input.txt')
 with open(file_path) as file:
     lines = [line.rstrip() for line in file]
 

@@ -4,7 +4,7 @@ from utils import get_input_path
 
 
 # Part one
-file_path = get_input_path(__file__, '2015_6_input.txt')
+file_path = get_input_path(__file__, '2015_06_input.txt')
 with open(file_path) as file:
     instructions = [line.rstrip() for line in file]
 

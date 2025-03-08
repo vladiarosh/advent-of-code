@@ -2,7 +2,7 @@ import hashlib
 from utils import get_input_path
 
 # PART ONE
-file_path = get_input_path(__file__, '2015_4_input.txt')
+file_path = get_input_path(__file__, '2015_04_input.txt')
 file = open(file_path)
 secret_key = file.read()
 file.close()

@@ -1,7 +1,7 @@
 from utils import get_input_path
 # PART ONE
 # version 1 with O(2n)
-file_path = get_input_path(__file__, '2015_1_input.txt')
+file_path = get_input_path(__file__, '2015_01_input.txt')
 file = open(file_path)
 my_instructions = file.read()
 file.close()

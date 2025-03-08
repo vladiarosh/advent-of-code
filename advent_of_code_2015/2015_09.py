@@ -3,7 +3,7 @@ from utils import get_input_path
 
 
 def main():
-    file_path = get_input_path(__file__, '2015_9_input.txt')
+    file_path = get_input_path(__file__, '2015_09_input.txt')
     instructions = open(file_path)
     adjacency_matrix = {}
     for line in instructions:

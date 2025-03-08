@@ -1,6 +1,6 @@
 from utils import get_input_path
 
-file_path = get_input_path(__file__, '2015_2_input.txt')
+file_path = get_input_path(__file__, '2015_02_input.txt')
 file = open(file_path)
 boxes = file.read()
 file.close()
